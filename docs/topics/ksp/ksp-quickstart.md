@@ -227,6 +227,10 @@ ksp {
 
 ## Make IDE aware of generated code
 
+> Everything should work out of box since KSP 1.8.0-1.0.9. If you're using KSP 1.0.9 or newer, feel free to skip this section. 
+>
+{type="note"}
+
 By default, IntelliJ IDEA or other IDEs don't know about the generated code. So it will mark references to generated
 symbols unresolvable. To make an IDE be able to reason about the generated symbols, mark the
 following paths as generated source roots:
